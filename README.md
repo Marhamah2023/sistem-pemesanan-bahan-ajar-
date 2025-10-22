@@ -10,7 +10,7 @@ Responsif & Modern UI	-> Menggunakan box-shadow dan border-radius.
 Sistem SITTA membutuhkan form pemesanan bahan ajar dan tabel untuk melihat pesanan.
 
 - Perancangan struktur HTML semantik:
-Menggunakan elemen <header>, <main>, <section>, <table>, <form> agar mudah dipahami dan valid secara struktur.
+Menggunakan elemen header, main, section, table, form agar mudah dipahami dan valid secara struktur.
 
 - Desain antarmuka (CSS):
 Membuat UI bersih, profesional, dan mudah dibaca. Menggunakan external CSS untuk pemisahan concern, dan inline CSS untuk interaksi dinamis (contoh tombol hapus).
