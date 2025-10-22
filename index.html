@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITTA - Pemesanan Bahan Ajar UT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>SITTA - Sistem Pemesanan Bahan Ajar UT</h1>
+        <p>Universitas Terbuka</p>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>Form Pemesanan Bahan Ajar</h2>
+            <form id="orderForm">
+                <label for="nama">Nama Mahasiswa:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim" placeholder="Masukkan NIM">
+
+                <label for="judul">Judul Bahan Ajar:</label>
+                <input type="text" id="judul" name="judul" placeholder="Masukkan judul bahan ajar">
+
+                <label for="jumlah">Jumlah Pesanan:</label>
+                <input type="number" id="jumlah" name="jumlah" min="1" value="1">
+
+                <button type="submit">Kirim Pesanan</button>
+            </form>
+        </section>
+
+        <section id="data-section">
+            <h2>Daftar Pesanan</h2>
+            <table id="tabelPesanan">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>Judul Bahan Ajar</th>
+                        <th>Jumlah</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Universitas Terbuka - Sistem SITTA</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

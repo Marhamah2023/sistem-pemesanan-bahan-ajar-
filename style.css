@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f8fafc;
+    color: #222;
+}
+
+header {
+    background-color: #0056a6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* 🌟 Atur agar form dan tabel sejajar */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+    /* agar responsif di layar kecil */
+}
+
+/* Card style untuk kedua section */
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+h2 {
+    color: #222;
+    border-bottom: 2px solid #0056a6;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Tombol dan form */
+button {
+    background-color: #0056a6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+/* Input field */
+input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    font-size: 0.9em;
+}
